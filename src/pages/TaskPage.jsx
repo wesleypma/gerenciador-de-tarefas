@@ -9,7 +9,11 @@ function TaskPage() {
   const description = searchParams.get("description");
   return (
     <div className="h-screen w-screen bg-slate-500 p-6">
+<<<<<<< HEAD
       <div className="w-[500px] mx-auto space-y-4">
+=======
+      <div className="w-[500px] space-y-4">
+>>>>>>> 0ff640dabc30490c3b56c0ebdaf5b90a87839834
         <div className="flex justify-center relative">
           <button
             onClick={() => navigate(-1)}
